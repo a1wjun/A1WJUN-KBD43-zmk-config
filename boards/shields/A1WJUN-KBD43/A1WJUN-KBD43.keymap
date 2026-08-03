@@ -159,9 +159,9 @@
                 // 第 2 行：媒体控制 + 符号键 + 滚轮下滚
                 &kp CAPS         &none        &kp C_BRI_UP &kp C_PREV   &kp C_VOL_UP &kp C_PP     &kp LBKT     &kp RBKT     &kp MINUS    &kp EQUAL    &kp BSLH      &msc SCRL_DOWN
                 // 第 3 行：鼠标按键 + 鼠标移动（上）
-                &trans           &none        &kp C_BRI_DN &kp C_NEXT   &kp C_VOL_DN &kp C_MUTE   &kp SEMI     &kp APOS     &mkp LCLK    &mkp RCLK    &mmv MOVE_UP  &mkp MCLK
+                &none           &none        &kp C_BRI_DN &kp C_NEXT   &kp C_VOL_DN &kp C_MUTE   &kp SEMI     &kp APOS     &mkp LCLK    &mkp RCLK    &mmv MOVE_UP  &mkp MCLK
                 // 第 4 行：鼠标移动（左、下、右）
-                &trans           &trans       &trans       &none        &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
+                &none           &none        &none        &none        &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
             >;
         };
 
