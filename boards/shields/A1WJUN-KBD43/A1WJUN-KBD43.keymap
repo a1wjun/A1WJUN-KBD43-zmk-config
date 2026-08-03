@@ -178,9 +178,9 @@
                 // 第 1 行：F1-F12
                 &kp F11          &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6       &kp F7       &kp F8       &kp F9       &kp F10       &kp F12
                 // 第 2 行：输出切换（USB/BLE）
-                &none            &none        &none        &none        &none        &none        &none        &none        &none        &out OUT_TOG &out OUT_USB  &out OUT_BLE
+                &none            &none        &none        &none        &none        &none        &none        &none        &none        &none        &none         &none
                 // 第 3 行：小键盘、截屏、翻页
-                &none            &none        &none        &none        &none        &none        &none        &none        &kp KP_NUM   &kp PSCRN    &kp PAGE_UP   &studio_unlock
+                &none            &none        &none        &none        &none        &none        &none        &none        &kp KP_NUM   &kp PSCRN    &kp PAGE_UP   &none
                 // 第 4 行：导航键
                 &none            &none        &none        &none        &kp HOME     &kp PAGE_DOWN &kp END
             >;
@@ -199,9 +199,9 @@
                 // 第 1 行：软关机 + 蓝牙断开
                 &soft_off        &none        &none        &none        &none        &none        &none        &bt BT_DISC 0 &bt BT_DISC 1 &bt BT_DISC 2 &none         &none
                 // 第 2 行：蓝牙清除 + 选择设备
-                &none            &none        &none        &none        &none        &none        &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none         &none
+                &none            &none        &none        &none        &none        &none        &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none        &none
                 // 第 3 行：清除所有配对、系统复位、进入刷机模式
-                &none            &none        &none        &none        &none        &none        &bt BT_CLR_ALL &sys_reset    &bootloader   &none         &none         &none
+                &none            &none        &none        &none        &none        &none        &bt BT_CLR_ALL &sys_reset    &bootloader  &none         &none        &studio_unlock
                 // 第 4 行
                 &none            &none        &none        &none        &none        &none        &none
             >;
