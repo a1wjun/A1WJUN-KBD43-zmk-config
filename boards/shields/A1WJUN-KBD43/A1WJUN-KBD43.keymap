@@ -133,7 +133,7 @@
         layer_base {
             bindings = <
                 // 第 1 行（12 键）
-                &kp ESC      &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P      &kp BACKSPACE
+                &lt 4 ESC      &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P      &kp BACKSPACE
                 // 第 2 行（12 键）
                 &kp TAB      &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp SLASH  &kp ENTER
                 // 第 3 行（12 键）
@@ -155,13 +155,13 @@
         layer_number {
             bindings = <
                 // 第 1 行：数字行 + 滚轮上滚
-                &kp GRAVE        &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0        &msc SCRL_UP
+                &trans           &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0        &msc SCRL_UP
                 // 第 2 行：媒体控制 + 符号键 + 滚轮下滚
                 &kp CAPS         &none        &kp C_BRI_UP &kp C_PREV   &kp C_VOL_UP &kp C_PP     &kp LBKT     &kp RBKT     &kp MINUS    &kp EQUAL    &kp BSLH      &msc SCRL_DOWN
                 // 第 3 行：鼠标按键 + 鼠标移动（上）
-                &none            &none        &kp C_BRI_DN &kp C_NEXT   &kp C_VOL_DN &kp C_MUTE   &kp SEMI     &kp APOS     &mkp LCLK    &mkp RCLK    &mmv MOVE_UP  &mkp MCLK
+                &trans           &none        &kp C_BRI_DN &kp C_NEXT   &kp C_VOL_DN &kp C_MUTE   &kp SEMI     &kp APOS     &mkp LCLK    &mkp RCLK    &mmv MOVE_UP  &mkp MCLK
                 // 第 4 行：鼠标移动（左、下、右）
-                &none            &none        &none        &none        &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
+                &trans           &trans       &trans       &none        &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT
             >;
         };
 
