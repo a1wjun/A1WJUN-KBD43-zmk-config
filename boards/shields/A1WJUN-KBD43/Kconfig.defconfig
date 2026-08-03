@@ -1,0 +1,6 @@
+if SHIELD_A1WJUN-KBD43
+
+config ZMK_KEYBOARD_NAME
+    default "A1WJUN-KBD43"
+
+endif

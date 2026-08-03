@@ -1,0 +1,8 @@
+include:
+  - board: nice_nano_v2
+    shield: A1WJUN-KBD43
+    artifact-name: A1WJUN-KBD43
+    snippet: studio-rpc-usb-uart          # 必须添加，支持 ZMK Studio
+  - board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: A1WJUN-KBD43_reset
